@@ -25,7 +25,7 @@ function imagepreview(event)
   image=event.target;
   if(image.flag)
   {
-    image.src="hover.jpg";
+    image.src="images/hover.jpg";
   }
 }
 function origimg(event)
@@ -33,7 +33,7 @@ function origimg(event)
  image=event.target;
  if(image.flag)
  {
-    image.src="curtain.jpg";
+    image.src="images/curtain.jpg";
   }
 
 }
@@ -43,7 +43,7 @@ function revealimage(event)
   if(attempt<4)
   {
     image=event.target;
-    image.src="goat.jpg";
+    image.src="images/goat.jpg";
     image.flag=false;
     attempt++;
     freshtext();
@@ -55,7 +55,7 @@ function revealprize(event)
   if(attempt<4)
   {
     image=event.target;
-    image.src="car.jpeg";
+    image.src="images/car.jpeg";
     image.flag=false;
     victory=true;
     attempt++;
