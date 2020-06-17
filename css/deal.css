@@ -1,0 +1,78 @@
+body{
+background-image: url("beige2.jpg");
+
+
+}
+
+.button {
+  border-radius: 25px;
+  background-color: palegoldenrod;
+  border: none;
+  color: deeppink;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Rubik Medium;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left:85%;
+  }
+
+  .button:hover {
+    background-color:coral;
+    color:gold;
+    }
+  img {
+    height:180; width:250;
+    margin-right:20px; margin-bottom:20px;
+    margin-left:20px; margin-top:30px;
+      }
+
+  #title{
+    border-radius: 25px;
+    border-color:blue;
+    border-width:10px;
+    border-style:groove;
+    padding:10px;
+    background-color:blanchedalmond;
+    color:limegreen;
+    position:absolute;
+    margin-left:40%;
+
+  }
+
+
+  #placement {
+    border-radius: 30px;
+    position: relative; /* or absolute */
+    margin-top:10%;
+    margin-left:20%;
+    margin-right:30%;
+    padding:10px;
+    background-color:darksalmon;
+    display: inline-block;
+
+      }
+
+  #rules {
+    position:absolute;
+    border-radius: 25px;
+    border: 10px dotted black;
+    top:10%;
+    padding:50px;
+    margin-left:80%;
+    font-size:30px;
+    background-color:silver;
+    color:ghostwhite;
+    font-family:Titania;
+  }
+
+  #banner,#commentary{
+    margin-left:10px;
+    font-size: 30px;
+    color: black;
+    font-family:Rubik;
+    text-align:center;
+  }
